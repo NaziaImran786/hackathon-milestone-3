@@ -91,8 +91,8 @@
       </div>      
     </div>
     <div class="container text-center mt-3">
-      <button onclick="generateResume()" class="btn btn-primary btn-lg">Generate Resume</button>
-      </div> 
+      <button onclick="generateResume()" id="generateBtn" class="btn btn-primary btn-lg">Generate Resume</button>
+    </div> 
   </div>
 
   <!-- CV template -->
@@ -105,16 +105,16 @@
   
         <div class="container">
           <p id="nameT1">Nazia Imran</p>
-          <p id="contactT">+923170234061</p>
+          <p id="contactT">+923171234567</p>
           <p id="addressT">Gulistan-e-Johar block 19, karachi</p>
 
           <hr/>
 
           <p>
-            <a id="linkT" href="#1">www.linkedin.com/in/nazia-imran-588090300</a>
+            <a id="linkT" href="#1">www.linkedin.com</a>
           </p>
           <p>
-            <a  id="fbT" href="#1">https://www.facebook.com/profile.php?id=100001297523230</a>
+            <a  id="fbT" href="#1">https://www.facebook.com</a>
           </p>
         </div>
       </div>
@@ -172,10 +172,11 @@
                 </div>
   
                <div class="contain mt-3ntext-center">
-                  <button onclick="printResume()" class="btn background">
-                      Print Resume
-                  </button>
-               </div>       
+                  <button onclick="printResume()" id="printBtn" class="btn background">Print Resume</button>                  
+               </div> 
+               <div class="container text-center mt-3">
+                <button onclick="editResume()" id="editBtn" class="btn btn-warning btn-lg display:none;">Edit Resume</button>
+               </div>      
       </div>
     </div>
    </div>    
